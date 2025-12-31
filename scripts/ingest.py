@@ -178,7 +178,7 @@ def main():
     user_id = "me"
     processed_label_id = ensure_label(service, user_id, PROCESSED_LABEL_NAME)
 
-    entries_path = os.path.join("data", "entries.json")
+    entries_path = os.path.join("docs", "data", "entries.json")
     state = load_entries(entries_path)
     entries = state.get("entries", [])
 
