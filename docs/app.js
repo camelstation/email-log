@@ -9,7 +9,7 @@ function escapeHtml(s) {
 
 async function main() {
   const settings = await fetch("./settings.json").then(r => r.json());
-  const data = await fetch("../data/entries.json").then(r => r.json());
+  const data = await fetch("./data/entries.json").then(r => r.json());
 
   // Apply theme vars from settings.json
   const bg = settings.background || {};
