@@ -10,17 +10,6 @@
       "link_url": "",
       "photo_url": "https://res.cloudinary.com/dsiwne5vt/image/upload/v1767221338/email-log/19b7699196809642-312bbc5aa4194f78974a3b6abf7895b7.jpg",
       "photo_public_id": "email-log/19b7699196809642-312bbc5aa4194f78974a3b6abf7895b7"
-    },
-    {
-      "id": "84c420c4-ccc6-486f-a287-d42e527aca0f",
-      "created_ts": 1767220889,
-      "date": "2025-12-31",
-      "category": "",
-      "text": "Look at Totoro on the Christmas tree",
-      "normalized_text": "look at totoro on the christmas tree",
-      "link_url": "",
-      "photo_url": "",
-      "photo_public_id": ""
     }
   ]
 }
