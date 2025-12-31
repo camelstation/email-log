@@ -2,9 +2,8 @@
   --bg:#0b0b0c;
   --fg:#f2f2f2;
   --muted:#b8b8b8;
-  --card:rgba(255,255,255,0.06);
-  --border:rgba(255,255,255,0.12);
-  --font: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial;
+  --font: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial;
+  --title-font: "Baloo Bhaijaan 2", system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial;
 }
 
 html, body { height: 100%; }
@@ -18,12 +17,15 @@ body{
 .wrap{
   max-width: 820px;
   margin: 0 auto;
-  padding: 28px 18px 48px;
+  padding: 28px 18px 28px;
 }
 
 .site-header h1{
-  margin: 0 0 6px;
-  font-size: 28px;
+  margin: 0 0 10px;
+  font-family: var(--title-font);
+  font-weight: 800;
+  font-size: 56px;
+  line-height: 1;
   letter-spacing: 0.2px;
 }
 
@@ -32,27 +34,41 @@ body{
   color: var(--muted);
 }
 
-.entries{ display:flex; flex-direction:column; gap: 10px; }
-
-.entry{
-  border: 1px solid var(--border);
-  background: var(--card);
-  border-radius: 12px;
-  padding: 12px 12px 10px;
+.entries{
+  display:block;
 }
 
-.meta{
-  display:flex;
-  gap: 10px;
-  align-items: baseline;
-  margin-bottom: 6px;
+.entry{
+  /* No box, no border, no background */
+  padding: 0;
+  margin: 0;
+}
+
+.line{
+  /* single-line row */
+  display:block;
+  padding: 6px 0;           /* vertical rhythm */
+  border-bottom: 1px solid rgba(255,255,255,0.10);
+  font-size: 16px;
+  line-height: 1.2;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.date{
+  font-weight: 700;
+  margin-right: 10px;
+}
+
+.cat{
+  margin-right: 6px;
   color: var(--muted);
-  font-size: 13px;
 }
 
 .text{
-  white-space: pre-wrap;
-  line-height: 1.35;
+  /* keep it inline; app.js will assemble content */
+  display:inline;
 }
 
 a{
@@ -62,8 +78,8 @@ a{
 }
 
 .site-footer{
-  margin-top: 26px;
+  margin-top: 18px;
   color: var(--muted);
-  font-size: 13px;
+  font-size: 12px; /* small */
 }
 

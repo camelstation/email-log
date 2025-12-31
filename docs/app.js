@@ -44,13 +44,15 @@ async function main() {
     const link = e.link_url ? ` <a href="${escapeHtml(e.link_url)}" target="_blank" rel="noopener">[link]</a>` : "";
     const photo = e.photo_url ? ` <a href="${escapeHtml(e.photo_url)}" target="_blank" rel="noopener">[photo]</a>` : "";
 
+    const cat = e.category ? escapeHtml(e.category) : "";
+
     return `
       <article class="entry">
-        <div class="meta">
+        <div class="line">
           <span class="date">${date}</span>
-          <span class="cat">${emoji}${escapeHtml(e.category || "")}</span>
+          <span class="cat">${emoji}${cat}</span>
+          <span class="text">${text}${link}${photo}</span>
         </div>
-        <div class="text">${text}${link}${photo}</div>
       </article>
     `;
   }).join("");

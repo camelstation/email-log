@@ -1,7 +1,7 @@
 {
-  "title": "Log",
-  "header": "A small email-driven log",
-  "footer": "© 2025",
+  "title": "Hello",
+  "header": "",
+  "footer": "© Lost in the jungle with the clouds",
   "background": {
     "color": "#0b0b0c",
     "image_url": "",
@@ -9,7 +9,8 @@
     "muted_color": "#b8b8b8",
     "card_color": "rgba(255,255,255,0.06)",
     "border_color": "rgba(255,255,255,0.12)",
-    "font_family": "ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial"
+    "font_family": "system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial"
+    "font_family_original": "ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial"
   },
   "categories": {
     "film": "🎬",
