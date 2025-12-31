@@ -9,7 +9,7 @@
     "muted_color": "#b8b8b8",
     "card_color": "rgba(255,255,255,0.06)",
     "border_color": "rgba(255,255,255,0.12)",
-    "font_family": "system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial"
+    "font_family": "system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial",
     "font_family_original": "ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial"
   },
   "categories": {
