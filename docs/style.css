@@ -45,15 +45,14 @@ body{
 }
 
 .line{
-  /* single-line row */
+  /* single-line wrapping text */
   display:block;
   padding: 6px 0;           /* vertical rhythm */
   border-bottom: 1px solid rgba(255,255,255,0.10);
   font-size: 16px;
-  line-height: 1.2;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
+  line-height: 1.35;
+  white-space: normal;
+  overflow: anywhere;
 }
 
 .date{
