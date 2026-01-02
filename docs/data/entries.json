@@ -1,6 +1,28 @@
 {
   "entries": [
     {
+      "id": "44c2369d-7a00-4b48-a566-93afff61533b",
+      "created_ts": 1767390090,
+      "date": "2026-01-02",
+      "category": "",
+      "text": "One of our first guests visited the space today: the irrepressible flâneur, Sameer",
+      "normalized_text": "one of our first guests visited the space today: the irrepressible flâneur, sameer",
+      "link_url": "",
+      "photo_url": "https://res.cloudinary.com/dsiwne5vt/image/upload/v1767390378/email-log/19b80a8a0a4206b9-d9a23a9707d44b4b97a6b36d26b0be58.jpg",
+      "photo_public_id": "email-log/19b80a8a0a4206b9-d9a23a9707d44b4b97a6b36d26b0be58"
+    },
+    {
+      "id": "968cf1fc-708e-48af-a58a-fb1d3c79a9ba",
+      "created_ts": 1767389862,
+      "date": "2026-01-02",
+      "category": "",
+      "text": "We signed a commercial lease for a 2200 sq ft space on the winter solstice and picked up the keys on my birthday. One might call them super omens. The past week has been the buildout with the help of others. Here’s Jemila working on the final touches of the expansive and utterly transformed floor",
+      "normalized_text": "we signed a commercial lease for a 2200 sq ft space on the winter solstice and picked up the keys on my birthday. one might call them super omens. the past week has been the buildout with the help of others. here’s jemila working on the final touches of the expansive and utterly transformed floor",
+      "link_url": "",
+      "photo_url": "https://res.cloudinary.com/dsiwne5vt/image/upload/v1767390376/email-log/19b80a527a7517bf-026c8ca0c80148e68c4cc29adad3293b.jpg",
+      "photo_public_id": "email-log/19b80a527a7517bf-026c8ca0c80148e68c4cc29adad3293b"
+    },
+    {
       "id": "2860cb90-3764-4dbf-afe5-f1cabcd6eb4e",
       "created_ts": 1767322587,
       "date": "2026-01-01",
