@@ -1,6 +1,28 @@
 {
   "entries": [
     {
+      "id": "2860cb90-3764-4dbf-afe5-f1cabcd6eb4e",
+      "created_ts": 1767322587,
+      "date": "2026-01-02",
+      "category": "",
+      "text": "Happy New Year!! Ending the first day of the New Year in a sauna with friends",
+      "normalized_text": "happy new year!! ending the first day of the new year in a sauna with friends",
+      "link_url": "",
+      "photo_url": "https://res.cloudinary.com/dsiwne5vt/image/upload/v1767324103/email-log/19b7ca2c2d0fe09a-59d7a537ee5b4d0cb9291a16243fed1f.jpg",
+      "photo_public_id": "email-log/19b7ca2c2d0fe09a-59d7a537ee5b4d0cb9291a16243fed1f"
+    },
+    {
+      "id": "f049c7ee-ea0f-415c-87c1-c5e85a7700be",
+      "created_ts": 1767322503,
+      "date": "2026-01-02",
+      "category": "",
+      "text": "Happy New Year!! Kazakhs counting money to pay Kazakhs for a Eurasian New Year feast",
+      "normalized_text": "happy new year!! kazakhs counting money to pay kazakhs for a eurasian new year feast",
+      "link_url": "",
+      "photo_url": "https://res.cloudinary.com/dsiwne5vt/image/upload/v1767324102/email-log/19b7ca17b59924ad-01dd1437cdc140e5880402c1332d9c88.jpg",
+      "photo_public_id": "email-log/19b7ca17b59924ad-01dd1437cdc140e5880402c1332d9c88"
+    },
+    {
       "id": "789ab931-6582-4384-b9c7-fbe855a86338",
       "created_ts": 1767317039,
       "date": "2026-01-02",
