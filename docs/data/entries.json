@@ -1,6 +1,17 @@
 {
   "entries": [
     {
+      "id": "789ab931-6582-4384-b9c7-fbe855a86338",
+      "created_ts": 1767317039,
+      "date": "2026-01-02",
+      "category": "",
+      "text": "Happy New Year! Ready for the Polar Bear plunge with friends, a sultry -4C with wind chill to -15C. Always ecstatic and mind bending.",
+      "normalized_text": "happy new year! ready for the polar bear plunge with friends, a sultry -4c with wind chill to -15c. always ecstatic and mind bending.",
+      "link_url": "",
+      "photo_url": "https://res.cloudinary.com/dsiwne5vt/image/upload/v1767318546/email-log/19b7c4e1e76bb3dd-be68b3131c9540a7b51943823b8d631a.jpg",
+      "photo_public_id": "email-log/19b7c4e1e76bb3dd-be68b3131c9540a7b51943823b8d631a"
+    },
+    {
       "id": "48bcd103-2802-4193-8cdd-e03ab41821b6",
       "created_ts": 1767221290,
       "date": "2025-12-31",
