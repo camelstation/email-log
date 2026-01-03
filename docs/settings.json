@@ -3,14 +3,17 @@
   "header": "",
   "footer": "© Lost in the jungle with the clouds",
   "background": {
-    "color": "#0b0b0c",
-    "image_url": "",
-    "text_color": "#f2f2f2",
-    "muted_color": "#b8b8b8",
-    "card_color": "rgba(255,255,255,0.06)",
-    "border_color": "rgba(255,255,255,0.12)",
-    "font_family": "system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial",
-    "font_family_original": "ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial"
+"background": {
+  "type": "random_gradient",
+  "gradients": [
+    "linear-gradient(135deg, #0b1026 0%, #2b124a 55%, #0a0f1f 100%)",
+    "linear-gradient(135deg, #071a1f 0%, #0f2a3a 50%, #1a0b2e 100%)",
+    "linear-gradient(135deg, #121023 0%, #1a2a2f 55%, #0b0f16 100%)",
+    "linear-gradient(135deg, #120a1a 0%, #0b2340 55%, #070b14 100%)"
+  ],
+  "text_color": "#ffffff",
+  "muted_color": "rgba(255,255,255,0.78)",
+  "font_family": "\"Playfair Display\", Georgia, \"Times New Roman\", serif"
   },
   "categories": {
     "film": "🎬",
