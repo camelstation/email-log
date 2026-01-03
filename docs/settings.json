@@ -1,19 +1,17 @@
 {
-  "title": "Hello",
+  "title": "Hello!",
   "header": "",
-  "footer": "© Lost in the jungle with the clouds",
+  "footer": "(c) Lost in the jungle with the clouds",
   "background": {
-"background": {
-  "type": "random_gradient",
-  "gradients": [
-    "linear-gradient(135deg, #0b1026 0%, #2b124a 55%, #0a0f1f 100%)",
-    "linear-gradient(135deg, #071a1f 0%, #0f2a3a 50%, #1a0b2e 100%)",
-    "linear-gradient(135deg, #121023 0%, #1a2a2f 55%, #0b0f16 100%)",
-    "linear-gradient(135deg, #120a1a 0%, #0b2340 55%, #070b14 100%)"
-  ],
-  "text_color": "#ffffff",
-  "muted_color": "rgba(255,255,255,0.78)",
-  "font_family": "\"Playfair Display\", Georgia, \"Times New Roman\", serif"
+    "type": "random_gradient",
+    "gradients": [
+      "linear-gradient(135deg, #0b1026 0%, #2b124a 55%, #0a0f1f 100%)",
+      "linear-gradient(135deg, #071a1f 0%, #0f2a3a 50%, #1a0b2e 100%)",
+      "linear-gradient(135deg, #121023 0%, #1a2a2f 55%, #0b0f16 100%)",
+      "linear-gradient(135deg, #120a1a 0%, #0b2340 55%, #070b14 100%)"
+    ],
+    "text_color": "#ffffff",
+    "muted_color": "rgba(255,255,255,0.78)"
   },
   "categories": {
     "film": "🎬",
