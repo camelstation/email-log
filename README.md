@@ -1,16 +1,6 @@
 # Email Log
 
-An email-driven website for logging whatever is of interest.
-
-I send myself an email. The emails becomes an chronological entry on a public website.
-
-You write entries by sending emails to a dedicated inbox.  
-You can include a link or a photo. 
-Each email can **add** or **delete** an entry.  
-The website automatically updates itself.
-
-The website is fully static and hosted on GitHub Pages.  
-All content lives in a single JSON file committed to the repo.
+An email-driven website for logging whatever I want. I send myself an email. It can include a link or a photo. The email becomes an chronological entry on a public website, updated automatically and hosted on GitHub Pages. All content lives in a single JSON file committed to the repo.
 
 ---
 
@@ -21,8 +11,6 @@ All content lives in a single JSON file committed to the repo.
 - Emails containing commands are processed
 - Entries are written to `entries.json`
 - The static site reads and renders that file
-
-There is no backend server and no database.
 
 ---
 
@@ -159,17 +147,9 @@ No JavaScript changes are required for most aesthetic tweaks.
 
 ---
 
-## Why this approach
+## Why did I do this
 
-Because I wanted something simple to keep a track of things.
-- Fully static
-- Free
-- Extremely low maintenance
-- No vendor lock-in
-- Easy to audit and modify
-- Data is always in my repo
-
-It is intentionally simple and legible.
+Because I wanted something simple to keep a track of things that is easy to update, free, extremely low maintenance and easy to audit and modify. I'm also becoming more forgetful and this seems like a nice way to keep a track of things that are important or of interest to me, both fleeting and more permanent. If you find yourself on this page, good for you.
 
 ---
 
