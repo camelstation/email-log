@@ -1,6 +1,17 @@
 {
   "entries": [
     {
+      "id": "630d2fe5-c8e7-4925-928b-bcc61f14c498",
+      "created_ts": 1767489349,
+      "date": "2026-01-04",
+      "category": "",
+      "text": "Another visitor, furiously cosplaying business planner for the new space",
+      "normalized_text": "another visitor, furiously cosplaying business planner for the new space",
+      "link_url": "",
+      "photo_url": "https://res.cloudinary.com/dsiwne5vt/image/upload/v1767492230/email-log/19b86933ac018a7c-e2982ff74a064c2aba41884c00245090.jpg",
+      "photo_public_id": "email-log/19b86933ac018a7c-e2982ff74a064c2aba41884c00245090"
+    },
+    {
       "id": "44c2369d-7a00-4b48-a566-93afff61533b",
       "created_ts": 1767390090,
       "date": "2026-01-02",
