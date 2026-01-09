@@ -14,6 +14,9 @@ from bs4 import BeautifulSoup
 from google.oauth2.credentials import Credentials
 from googleapiclient.discovery import build
 
+from zoneinfo import ZoneInfo
+LOCAL_TZ = ZoneInfo("America/New_York")
+
 SCOPES = ["https://www.googleapis.com/auth/gmail.modify"]
 
 ALLOWED_FROM = "campbell.watson@gmail.com"
@@ -270,7 +273,7 @@ def main():
                     data_bytes = base64.urlsafe_b64decode(data_b64.encode("utf-8"))
                     photo_url, photo_public_id = upload_first_photo_to_cloudinary(msg_id, img["filename"], data_bytes)
 
-            dt = datetime.fromtimestamp(created_ts, tz=timezone.utc).date().isoformat()
+            dt = datetime.fromtimestamp(created_ts, tz=timezone.utc).astimezone(LOCAL_TZ).date().isoformat()
 
             entry = {
                 "id": str(uuid.uuid4()),
